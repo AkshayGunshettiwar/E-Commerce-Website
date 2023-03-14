@@ -1,4 +1,6 @@
-import carousel1 from "../images/carousel_1.jpeg";
+import ban1 from "../images/5652981.jpg";
+import ban2 from "../images/cyber-monday-retail-sales.jpg";
+import ban3 from "../images/ban3.jpg";
 
 const Carousel = () => {
   return (
@@ -31,14 +33,14 @@ const Carousel = () => {
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src={carousel1} class="d-block w-100" alt="..." />
+          <img src={ban1} class="d-block w-100 h-50" alt="..." />
         </div>
         <div class="carousel-item">
-          <img src={carousel1} class="d-block w-100" alt="..." />
+          <img src={ban2} class="d-block w-100 h-50" alt="..." />
         </div>
-        <div class="carousel-item">
-          <img src={carousel1} class="d-block w-100" alt="..." />
-        </div>
+        {/*<div class="carousel-item">
+          <img src={ban3} class="d-block w-100 h-50" alt="..." />
+  </div>*/}
       </div>
       <button
         class="carousel-control-prev"

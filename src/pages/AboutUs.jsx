@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <div className="text-color ms-5 me-5 mr-5 mt-3">
       <b>
-      Online shopping is a process whereby consumers directly buy goods, services etc. from a seller without an intermediary service over the Internet. Shoppers can visit web stores from the comfort of their house and shop as by sitting in front of the computer.Ecommerce, also known as electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions.
+      Sales and Delivery is a process whereby consumers directly buy goods, services etc. from a seller without an intermediary service over the Internet. Shoppers can visit web stores from the comfort of their house and shop as by sitting in front of the computer.Ecommerce, also known as electronic commerce or internet commerce, refers to the buying and selling of goods or services using the internet, and the transfer of money and data to execute these transactions.
 
         <br />
         <br />
@@ -13,7 +13,7 @@ const AboutUs = () => {
         <br />
         <br />
 
-        The online shopping system is fast gaining media for to sale or purchase items from anywhere and anytime. It is basically based on Internet, It is related with B2C (Business to Customer) model and status of the design and development of e-commerce platform.E-business or Online business means business transactions that take place online with the help of the internet. The term e-business came into existence in the year 1996. E-business is an abbreviation for electronic business. Therefore, the buyer and the seller do not meet personally. E-commerce is directly link to your business promotions, as it is the age of digital media. Making your business available online is crucial to your business development such as, highly convenience, wide exposure, global customer, easy to run, etc. 
+        The Sales and Delivery system is fast gaining media for to sale or purchase items from anywhere and anytime. It is basically based on Internet, It is related with B2C (Business to Customer) model and status of the design and development of e-commerce platform.E-business or Online business means business transactions that take place online with the help of the internet. The term e-business came into existence in the year 1996. E-business is an abbreviation for electronic business. Therefore, the buyer and the seller do not meet personally. E-commerce is directly link to your business promotions, as it is the age of digital media. Making your business available online is crucial to your business development such as, highly convenience, wide exposure, global customer, easy to run, etc. 
 
         
       </b>

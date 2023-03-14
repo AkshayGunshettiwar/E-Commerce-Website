@@ -40,11 +40,61 @@ const MyCart = () => {
     console.log(response);
   };
 
+  //payment gateway
+
+
+
   const checkout = (e) => {
     e.preventDefault();
     console.log("CHECKOUT PAGE REQUEST");
     navigate("/user/order/payment", { state: { priceToPay: totatPrice } });
   };
+
+  // const loadScript = ()=>{
+  //   return new Promise((resolve)=>{
+  //     const script= document.createElement('script')
+  //     script.src=src;
+
+  //     script.onload=()=>{
+  //       resolve(true)
+  //     }
+
+  //     script.onerror=()=>{
+  //       resolve(false)
+  //     }
+
+  //     document.body.appendChild(script)
+  //   })
+
+  // }
+
+
+  // const displayRazorpay = async (amount) =>{
+  //   const res= await loadScript('https://checkout.razorpay.com/v1/checkout.js')
+
+  //   if(!res){
+  //     alert('You are offline...Failed to load Razorpay SDK')
+  //     return 
+
+  //   }
+
+  //   const options ={
+  //     key: "rzp_test_gB4om7KX47ZhJT",
+  //     currency: "INR",
+  //     amount: amount * 100,
+  //     name: "Akshay Gunshettiwar",
+  //     image: "https://mern-blog-akky.herokuapp.com/static/media/logo.8c649bfa.png",
+
+  //     handler: function(response){
+  //       alert(response.razorpay_payment_id);
+  //       alert("Payment Successful")
+  //     }
+
+  //   };
+
+  //   const paymentObject = new window.Razorpay(options)
+  //   paymentObject.open()
+  // }
 
   return (
     <div className="mt-3">
@@ -131,6 +181,8 @@ const MyCart = () => {
                 type="submit"
                 className="btn bg-color custom-bg-text mb-3"
                 onClick={checkout}
+                //  onClick={()=>
+                //  displayRazorpay(totatPrice)}
               >
                 Checkout
               </button>
